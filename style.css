@@ -87,7 +87,7 @@ header::before {
     padding-left: 1.5rem;
 }
 
-/* Navegação */
+
 nav {
     background-color: var(--white);
     padding: 1rem 0;
@@ -115,7 +115,6 @@ nav a:hover {
     color: var(--white);
 }
 
-/* Seções */
 section {
     padding: 5rem 0;
 }
@@ -141,7 +140,7 @@ h2::after {
     margin-top: 0.5rem;
 }
 
-/* Habilidades */
+
 #habilidades ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -166,7 +165,7 @@ h2::after {
     color: var(--green-500);
 }
 
-/* Projetos */
+
 #projetos ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -201,7 +200,7 @@ h2::after {
     color: var(--green-500);
 }
 
-/* Contato */
+
 #contato ul {
     display: grid;
     gap: 1.5rem;
@@ -230,7 +229,7 @@ h2::after {
     cursor: pointer;
 }
 
-/* Footer */
+
 footer {
     background-color: var(--blue-900);
     color: var(--white);
@@ -238,7 +237,7 @@ footer {
     padding: 2rem 0;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .header-content {
         grid-template-columns: 1fr;
@@ -263,7 +262,6 @@ footer {
     }
 }
 
-/* Animações */
 @keyframes fadeIn {
     from {
         opacity: 0;
